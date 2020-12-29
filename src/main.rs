@@ -2,7 +2,7 @@ use std::time::{Duration, Instant};
 use std::f64::consts::PI;
 
 
-fn approx_curve_length<F, G, H>(
+fn approx_curve_length<F, G, H> -> f64(
     a: f64, b: f64, iter: u32, curve: F, incrementor: G, accumulator: H
 ) where
     F: Fn(f64) -> f64, G: Fn(f64, f64, f64, f64) -> f64, H: Fn(f64, f64) -> f64 {    
@@ -20,13 +20,15 @@ fn approx_curve_length<F, G, H>(
     }
     let duration = start.elapsed();
     println!("Got result in: {:?}:", duration);
-    println!("Curve Length Approximation: {:?}\n", accumulator(count, delta) * 2.0);
+    let result = accumulator(count, delta) * 2.0;
+    println!("Curve Length Approximation: {:?}\n", result);
+    return result;
 }
 
 fn trials<F, G, H>(a: f64, b: f64, f: &F, inc: &G, acc: &H) where
     F: Fn(f64) -> f64, G: Fn(f64, f64, f64, f64) -> f64, H: Fn(f64, f64) -> f64 {
     for iter in [100, 1000, 10000, 100000, 1000000, 10000000].iter() {
-        approx_curve_length(a, b, *iter, f, inc, acc);
+        let length = approx_curve_length(a, b, *iter, f, inc, acc);
     }
 }
 
@@ -34,7 +36,7 @@ fn trials<F, G, H>(a: f64, b: f64, f: &F, inc: &G, acc: &H) where
 fn main() {
     /* The ellipse is horizontal, centered at (0, 0), and with a semi-major length == 3 and
      * semi minor length == 1. 
-     * We just care about the upper half of the ellipse in this function
+     * We just care about the upper half of the ellipse in this function and will multiply by 2 in the end of approx_curve_length
      */
     let upper_ellipse_cart = |x: f64| {
         (1.0 - (x*x) / 9.0).sqrt()

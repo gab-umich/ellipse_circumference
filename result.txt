@@ -1,125 +1,125 @@
 ========================= Polygon-Ellipse =========================
 Running with 100 iterations.
-Got result in: 32.294µs:
+Got result in: 7.494µs:
 Curve Length Approximation: 13.353297469422152
 
 Running with 1000 iterations.
-Got result in: 298.863µs:
+Got result in: 70.626µs:
 Curve Length Approximation: 13.364453126457912
 
 Running with 10000 iterations.
-Got result in: 1.738771ms:
+Got result in: 824.98µs:
 Curve Length Approximation: 13.364878535117388
 
 Running with 100000 iterations.
-Got result in: 6.822365ms:
+Got result in: 7.718102ms:
 Curve Length Approximation: 13.364892750516812
 
 Running with 1000000 iterations.
-Got result in: 65.815592ms:
+Got result in: 74.354029ms:
 Curve Length Approximation: 13.364893205620225
 
 Running with 10000000 iterations.
-Got result in: 654.438869ms:
+Got result in: 715.416597ms:
 Curve Length Approximation: 13.364893220084094
 
 ========================= Polygon-Circle =========================
 Running with 100 iterations.
-Got result in: 6.316µs:
+Got result in: 6.35µs:
 Curve Length Approximation: 6.2815211796849315
 
 Running with 1000 iterations.
-Got result in: 62.748µs:
+Got result in: 62.315µs:
 Curve Length Approximation: 6.283132712432955
 
 Running with 10000 iterations.
-Got result in: 616.958µs:
+Got result in: 742.911µs:
 Curve Length Approximation: 6.283183644079569
 
 Running with 100000 iterations.
-Got result in: 6.19321ms:
+Got result in: 6.458702ms:
 Curve Length Approximation: 6.28318525458799
 
 Running with 1000000 iterations.
-Got result in: 62.204727ms:
+Got result in: 65.389809ms:
 Curve Length Approximation: 6.2831853055161835
 
 Running with 10000000 iterations.
-Got result in: 623.364838ms:
+Got result in: 644.730974ms:
 Curve Length Approximation: 6.2831853071262245
 
-========================= Polar-Ellipse (with linear interpolaion) =========================
+========================= Polar-Ellipse (with polar integral) =========================
 Running with 100 iterations.
-Got result in: 39.63µs:
+Got result in: 95.087µs:
 Curve Length Approximation: 13.3648932205632
 
 Running with 1000 iterations.
-Got result in: 214.898µs:
+Got result in: 404.426µs:
 Curve Length Approximation: 13.36489322055526
 
 Running with 10000 iterations.
-Got result in: 2.172802ms:
+Got result in: 2.872864ms:
 Curve Length Approximation: 13.364893220555201
 
 Running with 100000 iterations.
-Got result in: 21.715182ms:
+Got result in: 25.006623ms:
 Curve Length Approximation: 13.364893220555068
 
 Running with 1000000 iterations.
-Got result in: 232.259491ms:
+Got result in: 253.864775ms:
 Curve Length Approximation: 13.364893220556139
 
 Running with 10000000 iterations.
-Got result in: 2.175554896s:
+Got result in: 2.36341158s:
 Curve Length Approximation: 13.364893220554857
 
 ========================= Polar-Ellipse (Epic Fail) =========================
 Running with 100 iterations.
-Got result in: 10.802µs:
+Got result in: 10.746µs:
 Curve Length Approximation: 20.229004257751154
 
 Running with 1000 iterations.
-Got result in: 100.688µs:
+Got result in: 156.638µs:
 Curve Length Approximation: 20.229004257751154
 
 Running with 10000 iterations.
-Got result in: 1.050731ms:
+Got result in: 1.315887ms:
 Curve Length Approximation: 20.229004257751157
 
 Running with 100000 iterations.
-Got result in: 10.078812ms:
+Got result in: 10.539834ms:
 Curve Length Approximation: 20.229004257751594
 
 Running with 1000000 iterations.
-Got result in: 101.570503ms:
+Got result in: 112.219216ms:
 Curve Length Approximation: 20.2290042577511
 
 Running with 10000000 iterations.
-Got result in: 1.01291986s:
+Got result in: 1.132466697s:
 Curve Length Approximation: 20.229004257752695
 
 ========================= Polar-Circle =========================
 Running with 100 iterations.
-Got result in: 12.166µs:
+Got result in: 18.194µs:
 Curve Length Approximation: 12.566370614359155
 
 Running with 1000 iterations.
-Got result in: 137.076µs:
+Got result in: 99.488µs:
 Curve Length Approximation: 12.566370614358947
 
 Running with 10000 iterations.
-Got result in: 970.462µs:
+Got result in: 1.09182ms:
 Curve Length Approximation: 12.56637061436086
 
 Running with 100000 iterations.
-Got result in: 9.532131ms:
+Got result in: 11.161548ms:
 Curve Length Approximation: 12.566370614351726
 
 Running with 1000000 iterations.
-Got result in: 93.827971ms:
+Got result in: 115.160843ms:
 Curve Length Approximation: 12.566370614310834
 
 Running with 10000000 iterations.
-Got result in: 936.986853ms:
+Got result in: 1.05621066s:
 Curve Length Approximation: 12.566370612086688
 
