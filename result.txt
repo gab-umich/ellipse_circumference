@@ -1,0 +1,125 @@
+========================= Polygon-Ellipse =========================
+Running with 100 iterations.
+Got result in: 32.294µs:
+Curve Length Approximation: 13.353297469422152
+
+Running with 1000 iterations.
+Got result in: 298.863µs:
+Curve Length Approximation: 13.364453126457912
+
+Running with 10000 iterations.
+Got result in: 1.738771ms:
+Curve Length Approximation: 13.364878535117388
+
+Running with 100000 iterations.
+Got result in: 6.822365ms:
+Curve Length Approximation: 13.364892750516812
+
+Running with 1000000 iterations.
+Got result in: 65.815592ms:
+Curve Length Approximation: 13.364893205620225
+
+Running with 10000000 iterations.
+Got result in: 654.438869ms:
+Curve Length Approximation: 13.364893220084094
+
+========================= Polygon-Circle =========================
+Running with 100 iterations.
+Got result in: 6.316µs:
+Curve Length Approximation: 6.2815211796849315
+
+Running with 1000 iterations.
+Got result in: 62.748µs:
+Curve Length Approximation: 6.283132712432955
+
+Running with 10000 iterations.
+Got result in: 616.958µs:
+Curve Length Approximation: 6.283183644079569
+
+Running with 100000 iterations.
+Got result in: 6.19321ms:
+Curve Length Approximation: 6.28318525458799
+
+Running with 1000000 iterations.
+Got result in: 62.204727ms:
+Curve Length Approximation: 6.2831853055161835
+
+Running with 10000000 iterations.
+Got result in: 623.364838ms:
+Curve Length Approximation: 6.2831853071262245
+
+========================= Polar-Ellipse (with linear interpolaion) =========================
+Running with 100 iterations.
+Got result in: 39.63µs:
+Curve Length Approximation: 13.3648932205632
+
+Running with 1000 iterations.
+Got result in: 214.898µs:
+Curve Length Approximation: 13.36489322055526
+
+Running with 10000 iterations.
+Got result in: 2.172802ms:
+Curve Length Approximation: 13.364893220555201
+
+Running with 100000 iterations.
+Got result in: 21.715182ms:
+Curve Length Approximation: 13.364893220555068
+
+Running with 1000000 iterations.
+Got result in: 232.259491ms:
+Curve Length Approximation: 13.364893220556139
+
+Running with 10000000 iterations.
+Got result in: 2.175554896s:
+Curve Length Approximation: 13.364893220554857
+
+========================= Polar-Ellipse (Epic Fail) =========================
+Running with 100 iterations.
+Got result in: 10.802µs:
+Curve Length Approximation: 20.229004257751154
+
+Running with 1000 iterations.
+Got result in: 100.688µs:
+Curve Length Approximation: 20.229004257751154
+
+Running with 10000 iterations.
+Got result in: 1.050731ms:
+Curve Length Approximation: 20.229004257751157
+
+Running with 100000 iterations.
+Got result in: 10.078812ms:
+Curve Length Approximation: 20.229004257751594
+
+Running with 1000000 iterations.
+Got result in: 101.570503ms:
+Curve Length Approximation: 20.2290042577511
+
+Running with 10000000 iterations.
+Got result in: 1.01291986s:
+Curve Length Approximation: 20.229004257752695
+
+========================= Polar-Circle =========================
+Running with 100 iterations.
+Got result in: 12.166µs:
+Curve Length Approximation: 12.566370614359155
+
+Running with 1000 iterations.
+Got result in: 137.076µs:
+Curve Length Approximation: 12.566370614358947
+
+Running with 10000 iterations.
+Got result in: 970.462µs:
+Curve Length Approximation: 12.56637061436086
+
+Running with 100000 iterations.
+Got result in: 9.532131ms:
+Curve Length Approximation: 12.566370614351726
+
+Running with 1000000 iterations.
+Got result in: 93.827971ms:
+Curve Length Approximation: 12.566370614310834
+
+Running with 10000000 iterations.
+Got result in: 936.986853ms:
+Curve Length Approximation: 12.566370612086688
+
